@@ -1,0 +1,44 @@
+.dark{
+    --bg-primary:#242526;
+     --bg-secondary:#18191a;
+     --bg-third: #3a3b3c;
+    --bg-forth: #3a3b3c;
+    --color-primary: #e4e6eb;
+    --color-secondary: #65676b; 
+  }
+  .dark .hover1:hover {
+    background: var(--bg-third);
+  }
+
+/* ----Header----*/
+  .dark .header_right svg {
+    fill: #fff;
+  }
+  .dark .small_circle ,
+  .dark .circle i
+   {
+    filter:invert(100%) !important;
+  }
+  .dark .add_pics_wrap i{
+    filter:invert(100%)
+  }
+ /* ----Header----*/
+
+   /* ----Profile----*/
+.dark .profile_circle i{
+    filter:invert(100%)
+  }
+  .dark .gray_btn {
+    background: var(--bg-third);
+  }
+  .dark .gray_btn:hover{
+    background: #777;
+  }
+  .dark .gray_btn i,
+  .dark .gray_btn img{
+    filter:invert(100%);
+  }
+  
+
+
+    /* ----Profile----*/

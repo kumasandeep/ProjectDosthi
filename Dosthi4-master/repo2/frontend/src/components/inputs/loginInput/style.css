@@ -1,0 +1,40 @@
+.input_wrap {
+  position: relative;
+  width: 200px;
+  /* display: flex; */
+  margin-left: 20px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+}
+.input_wrap input {
+  border: 1px solid var(--bg-third);
+  background: var(--bg-primary);
+  width: 70%;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: var(--color-primary);
+
+}
+
+
+
+
+.input_error {
+  position: relative;
+  color:red;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.input_error1 {
+  position: relative;
+  color:red;
+  font-size: 15px;
+  margin-top: 5px;
+  padding:10px;
+  width:200px
+
+}

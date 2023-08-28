@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": false
+    },
+    "auto-close-tag.insertSpaceBeforeSelfClosingTag": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "auto-rename-tag.activationOnLanguage": [
+
+        "*"
+    ],
+    "reactSnippets.settings.prettierEnabled": false,
+    "material-icon-theme.activeIconPack": "react"
+}

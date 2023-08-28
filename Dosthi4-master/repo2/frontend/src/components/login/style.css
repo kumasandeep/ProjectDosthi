@@ -1,0 +1,119 @@
+Customize the input field
+.react-datepicker-wrapper {
+    display: inline-block;
+  }
+  
+  .react-datepicker__input-container {
+    display: inline-block;
+  }
+  
+  .react-datepicker__input-container input {
+    padding: 10px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the calendar container */
+  .react-datepicker-popper {
+    z-index: 1;
+  }
+  
+  /* Style the calendar */
+  .react-datepicker {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Style the calendar header */
+  .react-datepicker__header {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    padding-top: 8px;
+  }
+  
+  /* Style the calendar navigation buttons */
+  .react-datepicker__navigation {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    line-height: 1.7em;
+    border: 0.45em solid transparent;
+    z-index: 1;
+    height: 10px;
+    width: 10px;
+    text-indent: -999em;
+    overflow: hidden;
+  }
+  
+  .react-datepicker__navigation--previous {
+    left: 10px;
+    border-right-color: #444;
+  }
+  
+  .react-datepicker__navigation--next {
+    right: 10px;
+    border-left-color: #444;
+  }
+  
+  /* Style the calendar days and cells */
+  .react-datepicker__day,
+  .react-datepicker__day-name {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  .react-datepicker__day {
+    cursor: pointer;
+  }
+  
+  .react-datepicker__day--today {
+    font-weight: bold;
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .react-datepicker__day--keyboard-selected {
+    background-color: rgba(0, 123, 255, 0.8);
+  }
+  
+  /* Style the error message */
+  .input_error {
+    color: #f00;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .error_arrow_bottom {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #f00;
+  }
+ .reg_line_header{
+  font-size: 15px;
+ }
+/* .date{
+    margin-left: 200px;
+} */
+.reg_grid1{
+    margin-left: 60px;
+}
+.reg_line{
+    width: 80%;
+  }
+  
